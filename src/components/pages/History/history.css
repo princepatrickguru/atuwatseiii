@@ -1,0 +1,153 @@
+/* .app {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+} */
+
+@media screen and (min-width: 790px) {
+    .app {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+.back-link{
+    display: none;
+}
+
+.history {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: auto;
+}
+
+.historyslide {
+    width: 100vw;
+    overflow: hidden;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.historypage{
+    width: 100vw;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 0;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.imgfull {
+    width: 100%;
+}
+
+.backArrowsection {
+    padding: 20px 0 10px 25px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.slidersection{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.history-title{
+    padding: 24px 24px 24px 0px;
+        border-radius: 0px 0px 20px 20px;
+}
+
+.history-title h2{
+    font-family: Roboto, sans-serif;    
+    font-weight: bold;
+    font-size: calc(1.325rem + .9vw);
+}
+
+.history-content{
+    flex-direction: column;
+        background-color: #fff;
+        border-radius: 8px;
+        max-height: 75vh;
+        padding: 24px 36px;
+        overflow-x: hidden;
+        overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(214, 212, 212);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    /* background: hidden; */
+    border-radius: 20px;
+    background: rgb(211, 55, 52);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(211, 55, 52);
+}
+
+
+.history-Heading{
+    font-family: Roboto, sans-serif;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.history-body p{
+    font-size: 0.7em;
+    font-family: Roboto, sans-serif;
+    padding: 5px 0;
+}
+
+
+@media screen and (min-width:790px) {
+    .historyslide {
+            width: 40vw;
+            height: 100vh;
+    }
+
+    .history {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+    }
+        .slidersection {
+            width: 100%;
+            height: 80%;
+        }
+
+    .historypage {
+        width: 100vw;
+        background-color: #F5F5F5;
+        padding: 24px;
+        width: 60vw;
+        height: 100vh;
+        padding: 24px;
+    }
+    .back-link{
+        display: block;
+    }
+}

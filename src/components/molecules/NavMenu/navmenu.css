@@ -1,0 +1,67 @@
+.leftNav{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.logobox{
+    padding-left: 10px;
+    display: none;
+}
+
+.logo{
+    width: 65px;
+}
+
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+}
+
+.navmenuall{
+    padding-top: 15px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    display: flex;
+    cursor: pointer;
+}
+
+.rightNav{
+    display: none;
+}
+
+/* .navlist:not(:last-child){ */
+.navlist{
+    padding-right: 20px;
+}
+
+.navlist{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.74em;
+    user-select: none;
+}
+
+.navlist:hover{
+    text-decoration: underline;
+    color: #f00;
+}
+
+
+@media screen and (min-width:970px){
+    .logobox {
+        display: block;
+    }
+    
+    .mobileMenu {
+        display: none;
+    }
+
+    .rightNav{
+        display: block;
+    }
+}

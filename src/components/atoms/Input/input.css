@@ -1,0 +1,16 @@
+.input{
+        border: 1.5px solid;
+            border-radius: 50px;
+            height: 45px;
+            padding: 0px 10px;
+            font-size: 1.2rem;
+            background: transparent;
+            outline: none;
+            width: 50%;
+            margin: 5px 0;
+}
+
+[type="search"] {
+    appearance: textfield;
+    outline-offset: -2px;
+}

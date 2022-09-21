@@ -1,0 +1,80 @@
+.rullerslist{
+    width: 50%;
+    height: 100%;
+
+    margin-bottom: 30px;
+    padding: 10px 10px 30px 10px;
+}
+
+.left-down-section {
+    display: flex;
+    flex-direction: column;
+    place-content: stretch flex-start;
+    align-items: stretch;
+    margin: 0px;
+    flex: 0 1 auto;
+    padding: 0px 24px;
+    max-height: 70vh;
+    overflow-y: auto;
+    order: 0;
+    align-self: auto;
+    -webkit-box-align: stretch;
+    -webkit-box-flex: 0;
+    -webkit-box-pack: start;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(214, 212, 212);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hidden;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(211, 55, 52);
+}
+
+.child-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.image-2 {
+    height: 70px;
+    width: 70px;
+}
+
+.d-none {
+    display: none;
+}
+
+.discription {
+    display: flex;
+    flex-direction: column;
+}
+
+.overflow-heading {
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: --bs-body-line-height;
+    padding: 10px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.discription-para {
+    font-size: .8rem;
+    font-weight: 600;
+    padding: 10px 0px 0px;
+    margin-top: 15px;
+}

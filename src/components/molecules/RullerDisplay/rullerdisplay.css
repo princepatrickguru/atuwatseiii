@@ -1,0 +1,65 @@
+.rullerdisplay {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        place-content: stretch flex-start;
+        -webkit-box-align: stretch;
+        max-height: 80vh;
+        margin: 0px;
+        padding: 24px;
+        overflow-y: auto;
+        align-items: stretch;
+        order: 0;
+        -webkit-box-flex: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+}
+
+.right-image {
+    padding: 0px 5px 0px 0px;
+    margin: 0px 0px 10px;
+}
+
+.right-image {
+    display: none;
+}
+
+.right-down-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.right-down-para {
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+.image-container {
+    width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-container {
+    width: 60%;
+}
+
+.image-container {
+    width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+}

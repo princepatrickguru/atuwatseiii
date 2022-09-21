@@ -1,0 +1,129 @@
+.logo-mobile{
+    width: 45px;
+}
+
+.mobilenav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70vh;
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.mobilenavtop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileclosebtn{
+    height: 5px;
+    width: 20%;
+    background-color: rgb(201, 199, 199);
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+}
+
+.mobilenavrowflexcolumn{
+    display: flex;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        place-content: stretch flex-start;
+        -webkit-box-align: flex-start;
+        align-items: flex-start;
+        order: 0;
+        -webkit-box-flex: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        margin: 5px 0;
+        padding: 10px 0;
+        text-decoration: none;
+}
+
+.mobilenavrow{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    place-content: stretch flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    order: 0;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin: 5px 0;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.mobilemenuicon{
+    padding-right: 10px;
+}
+
+.mobilemenuimg{
+    padding-right: 3px;
+    text-decoration: none;
+}
+
+.mobilemenutextbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.mobilemenutext{
+    display: block;
+    color: rgb(65, 18, 21);
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.mobilemenutextbig{
+    display: block;
+    color: rgb(65, 18, 21);
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.mobilemenutextsmall{
+    display: block;
+    color: rgb(65, 18, 21);
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+.mobilemenutextbig:hover {
+    color: #0d6efd;
+}
+
+.mobilemenutextsmall:hover {
+    color: #0d6efd;
+}
+
+.mobilemenutext:hover{
+    color: #0d6efd;
+}
+
+@media only screen and (min-width: 970px) {
+    .mobilenav{
+        display: none;
+    }
+}

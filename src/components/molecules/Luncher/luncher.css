@@ -1,0 +1,43 @@
+.luncher{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.luncherclose{
+    z-index: -1;
+}
+
+.top-luncher,
+.bottom-luncher{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--red);
+    z-index: 500;
+    transition: all 1s ease-out;
+}
+
+.top-luncher-pre{
+    transform: translateY(0);
+}
+
+.bottom-luncher-pre{
+    transform: translateY(0);
+}
+
+.top-luncher-run{
+    transform: translateY(-110%);
+}
+
+.bottom-luncher-run{
+    transform: translateY(110%);
+}

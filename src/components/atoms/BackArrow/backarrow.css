@@ -1,0 +1,17 @@
+.backarrow{
+    /* position: absolute;
+        top: 14px; */
+        width: 28px;
+        height: 28px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        color: rgb(53, 52, 52);
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        border: 1px solid black;
+        cursor: pointer;
+        text-decoration: none;
+}
