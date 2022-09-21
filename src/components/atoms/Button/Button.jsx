@@ -1,9 +1,12 @@
 import React from 'react'
 
-export const Button = () => {
+export const Button = ({className, controlClick, children}) => {
   return (
-    <div>
-      
-    </div>
+      <>
+        <button className={className}
+          onClick={()=> controlClick()}>
+          {children}
+        </button>
+      </>
   )
 }

@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    display: flex;
+
+}
+
+.img1 {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("https://www.atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon {
+    background-image: url("https: //encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7wdhgIcbFOK5riBe6yQ8CBARYz7rn3A1Kw&usqp=CAU");
+    width: 10px;
+}
+
+
+.parent-login {
+    width: 50vw;
+    background-color: #f1f3f4;
+}
+
+.login-section {
+    width: 77%;
+    height: 88%;
+    margin: auto;
+    margin-top: 37px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 55px 30px 0px 20px;
+}
+
+.paragraph {
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    margin-left: 25px;
+}
+
+.paragraph1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: lightgray;
+}
+
+.paragraph1:hover {
+    color: #0a58ca;
+    cursor: pointer;
+}
+
+.line-height {
+    line-height: 40px;
+}
+
+.change-password {
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+.change-password:hover {
+    color: #0a58ca;
+    cursor: pointer;
+}
+
+Input {
+    width: 460px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+
+}
+
+.input-email {
+    margin-bottom: 20px;
+}
+
+.login-button {
+    background-color: #D21220;
+    width: 450px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: 0;
+}

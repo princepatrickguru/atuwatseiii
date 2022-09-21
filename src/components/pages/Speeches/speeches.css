@@ -1,0 +1,317 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #F5F5F5;
+
+
+
+
+}
+
+.sec-1 {
+    background-image: url("https://atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 504px;
+    height: 683px;
+    margin-bottom: 70px;
+}
+
+.speeches-search-icon {
+    border: 1px solid white;
+    background-color: white;
+    width: 431px;
+}
+
+.circle-style {
+    display: flex;
+    position: absolute;
+    top: 14px;
+    width: 28px;
+    height: 28px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    color: rgb(53, 52, 52);
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.position-arrow {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    place-content: stretch center;
+    -webkit-box-align: center;
+    align-items: center;
+    order: 0;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    height: 28px;
+    width: 28px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+.icon {
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+.speeches-search {
+
+    padding: 10px 25px 24px;
+    margin-top: 30px;
+}
+
+.text {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.twin-divs {
+    padding: 13px;
+
+}
+
+Input {
+    width: 380px;
+    height: 43px;
+    border-radius: 50px;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+    border: 1px solid black;
+}
+
+.new-dawn {
+    width: 360px;
+    height: 90px;
+    display: flex;
+
+    background-color: white;
+    border-radius: 10px;
+    margin: 12px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.icon-message {
+
+    padding-right: 9px;
+    margin-left: -4px;
+}
+
+.ANeDa1 {
+    color: #212529;
+    font-family: Roboto, sans-serif;
+    font-size: 0.85rem;
+    font-weight: bold;
+
+}
+
+.Thimyose2 {
+    font-size: 0.9rem;
+    font-family: Roboto, sans-serif;
+    color: #212529;
+    padding: 15px 0px;
+}
+
+.dateandtime {
+    font-size: 9.6px;
+    color: #212529;
+    font-family: sans-serif;
+    margin-bottom: -400px;
+}
+
+.coronation {
+    width: 360px;
+    height: 100px;
+    display: flex;
+
+    background-color: white;
+    border-radius: 10px;
+    margin: 12px;
+    margin-left: 15px;
+    margin-top: -1px;
+
+}
+
+.sec-3 {
+    width: 450px;
+}
+
+.corospeech-date {
+
+    padding: 24px;
+    margin-left: 3px;
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 20px 20px;
+
+
+
+}
+
+h5 {
+
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    font-size: 1.25rem;
+
+}
+
+.dAtSpan {
+
+    font-family: Roboto, sans-serif;
+    font-size: 0.7rem;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
+
+.evvFLR {
+
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #07bc0c;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-transparent: hsla(0, 0%, 100%, .7);
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+    --toastify-toast-width: 320px;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+    --toastify-color-progress-light: linear-gradient(90deg, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Roboto, Helvetica, "Source Serif Pro", serif;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    place-content: stretch space-between;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    order: 0;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    height: 75vh;
+    margin: 0px;
+    padding: 24px;
+    overflow-y: auto;
+}
+
+.evvFLR {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    place-content: stretch space-between;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    order: 0;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    height: 75vh;
+    margin: 0px;
+    padding: 24px;
+    overflow-y: auto;
+}
